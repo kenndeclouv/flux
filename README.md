@@ -17,7 +17,7 @@ Flux requires the following before installing:
 Run the following command from your project's root directory:
 
 ```bash
-composer require livewire/flux
+composer require kenndeclouv/flux
 ```
 
 ## Getting Started
@@ -44,7 +44,7 @@ Flux uses Tailwind CSS for its default styling. Add the following configuration 
 
 ```css
 @import 'tailwindcss';
-@import '../../vendor/livewire/flux/dist/flux.css';
+@import '../../vendor/kenndeclouv/flux/dist/flux.css';
 
 @custom-variant dark (&:where(.dark, .dark *));
 ```
@@ -67,7 +67,7 @@ Configure Tailwind to use this font in your `resources/css/app.css`:
 
 ```css
 @import 'tailwindcss';
-@import '../../vendor/livewire/flux/dist/flux.css';
+@import '../../vendor/kenndeclouv/flux/dist/flux.css';
 
 ...
 
@@ -78,7 +78,7 @@ Configure Tailwind to use this font in your `resources/css/app.css`:
 
 ## What's included?
 
-The following components are included in the `livewire/flux` package:
+The following components are included in the `kenndeclouv/flux` package:
 * [Button](https://fluxui.dev/components/button)
 * [Dropdown](https://fluxui.dev/components/dropdown)
 * [Icon](https://fluxui.dev/components/icon)
@@ -114,7 +114,7 @@ You'll be prompted to select which components to publish, or use `--all` to publ
 To ensure you have the latest version of Flux, regularly update your dependencies:
 
 ```bash
-composer update livewire/flux livewire/flux-pro
+composer update kenndeclouv/flux kenndeclouv/flux-pro
 ```
 
 For more detailed documentation and guides, visit [https://fluxui.dev/docs](https://fluxui.dev/docs).

@@ -26,14 +26,14 @@ class FluxManager
 
     public function ensurePro()
     {
-        if (! InstalledVersions::isInstalled('livewire/flux-pro')) {
+        if (! InstalledVersions::isInstalled('kenndeclouv/flux-pro')) {
             throw new \Exception('Your install of Flux is not activated. Visit https://fluxui.dev/pricing to purchase a license key.');
         }
     }
 
     public function pro()
     {
-        return InstalledVersions::isInstalled('livewire/flux-pro');
+        return InstalledVersions::isInstalled('kenndeclouv/flux-pro');
     }
 
     public function markAssetsRendered()

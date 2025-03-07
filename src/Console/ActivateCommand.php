@@ -73,9 +73,9 @@ class ActivateCommand extends Command
         info('[√] Repository added to composer.json');
 
         // Run composer require...
-        note('Running: composer require livewire/flux-pro...');
+        note('Running: composer require kenndeclouv/flux-pro...');
 
-        $process = new Process(['composer', 'require', 'livewire/flux-pro']);
+        $process = new Process(['composer', 'require', 'kenndeclouv/flux-pro']);
 
         if ('\\' !== DIRECTORY_SEPARATOR && file_exists('/dev/tty') && is_readable('/dev/tty')) {
             try {
@@ -92,7 +92,7 @@ class ActivateCommand extends Command
         });
 
         if (! $process->isSuccessful()) {
-            error("We are unable to install Flux automatically. Try running `composer require livewire/flux-pro` manually.");
+            error("We are unable to install Flux automatically. Try running `composer require kenndeclouv/flux-pro` manually.");
             note('Contact support@fluxui.dev for help');
             return;
         }

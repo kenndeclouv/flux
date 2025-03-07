@@ -105,7 +105,7 @@ class PublishCommand extends Command
 
     protected function isFluxProInstalled(): bool
     {
-        return InstalledVersions::isInstalled('livewire/flux-pro');
+        return InstalledVersions::isInstalled('kenndeclouv/flux-pro');
     }
 
     protected function searchOptions(string $value): array
